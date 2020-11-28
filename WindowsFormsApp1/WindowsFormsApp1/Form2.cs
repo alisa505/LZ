@@ -35,5 +35,13 @@ namespace WindowsFormsApp1
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Owner = this;
+            form3.Show();
+            Hide();
+        }
     }
 }
